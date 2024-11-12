@@ -1,0 +1,10 @@
+:queues:
+  - default
+tasks: &tasks
+  CancelExpiredPendingOrdersJob:
+    cron: "01 16 * * * America/New_York" # every day at 16:01 EST
+    queue: default
+    description: "Cancel expired pending_orders"
+:scheduler:
+  :schedule:
+    <<: *tasks

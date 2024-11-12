@@ -1,0 +1,23 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user_id: 1
+  symbol: MyString
+  type: 
+  filled_at_price: 9.99
+  quantity: 1
+  status: MyString
+  order_placed_at: 2024-11-12 01:14:19
+  expired_at: 2024-11-12 01:14:19
+  filled_at: 2024-11-12 01:14:19
+
+two:
+  user_id: 1
+  symbol: MyString
+  type: 
+  filled_at_price: 9.99
+  quantity: 1
+  status: MyString
+  order_placed_at: 2024-11-12 01:14:19
+  expired_at: 2024-11-12 01:14:19
+  filled_at: 2024-11-12 01:14:19
